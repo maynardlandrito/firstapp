@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   #root 'application#index'
   root 'games#connect4'
   get 'connect4' => 'games#connect4'
+  get 'users' => 'games#all_users'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

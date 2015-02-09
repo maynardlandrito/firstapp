@@ -5,7 +5,7 @@ one:
   user_id: 1
   quantity: 1
   weight: 1.5
-  date_bought: 2015-02-02
+  date_bought: 2015-02-07
   fragile: false
 
 two:
@@ -13,5 +13,5 @@ two:
   user_id: 1
   quantity: 1
   weight: 1.5
-  date_bought: 2015-02-02
+  date_bought: 2015-02-07
   fragile: false
