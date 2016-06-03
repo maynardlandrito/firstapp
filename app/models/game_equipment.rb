@@ -2,6 +2,7 @@ class GameEquipment < ActiveRecord::Base
   belongs_to :user
   
   def total_weight
+    a = 1
     if weight.present? && quantity.present?
       weight * quantity
     else
