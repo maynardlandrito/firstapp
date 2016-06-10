@@ -3,6 +3,7 @@ class GameEquipment < ActiveRecord::Base
   
   def total_weight
     a = 5
+    b = 'testing'
     food = 'kamote'
     if weight.present? && quantity.present?
       weight * quantity
